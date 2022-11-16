@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55296" started-at="2022-11-11T16:01:08Z" finished-at="2022-11-11T16:02:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55296" started-at="2022-11-11T16:01:08Z" finished-at="2022-11-11T16:02:03Z">
+      <class name="org.sample1.sampledemo">
+        <test-method status="PASS" signature="chrome()[pri:0, instance:org.sample1.sampledemo@490ab905]" name="chrome" duration-ms="51743" started-at="2022-11-11T16:01:08Z" finished-at="2022-11-11T16:01:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome -->
+        <test-method status="PASS" signature="chromeone(java.lang.String, java.lang.String)[pri:0, instance:org.sample1.sampledemo@490ab905]" name="chromeone" duration-ms="3511" started-at="2022-11-11T16:01:59Z" data-provider="ecommerce" finished-at="2022-11-11T16:02:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefgh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[61654154]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromeone -->
+      </class> <!-- org.sample1.sampledemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
